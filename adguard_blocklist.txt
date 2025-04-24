@@ -1,0 +1,20 @@
+||continue^
+||domain = parsed.hostname^
+||domains = set()^
+||domains.add(domain.lower())^
+||except exception^
+||f.write('\n'.join(rules))^
+||for line in lines^
+||from urllib.parse import urlparse^
+||if domain^
+||if not url^
+||input_file = 'trackers.txt'        ^
+||lines = f.readlines()^
+||output_file = 'adguard_blocklist.txt'^
+||parsed = urlparse(url)^
+||print(f'adguard blocklist created with {len(rules)} entries in {output_file}')^
+||rules = sorted(f'||{domain}^' for domain in domains)^
+||try^
+||url = line.strip()^
+||with open(input_file, 'r', encoding='utf-8') as f^
+||with open(output_file, 'w', encoding='utf-8') as f^
